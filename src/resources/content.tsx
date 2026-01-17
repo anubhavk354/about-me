@@ -5,11 +5,11 @@ const person: Person = {
   firstName: "Anubhav",
   lastName: "Goswami",
   name: `Anubhav Goswami`,
-  role: "IT Support Engineer",
+  role: "IT Head",
   avatar: "/images/avatar.jpg",
   email: "anubhavsonu8@gmail.com",
   location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  languages: ["Hindi", "English", "Bengoli"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
@@ -65,7 +65,7 @@ const home: Home = {
     display: true,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
+        <strong className="ml-4">Hello</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
           Featured work
@@ -76,7 +76,7 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Anubhav, a IT Support Engineer at <Text as="span" size="xl" weight="strong">RentOcart</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
+    I'm Anubhav, a Technical Head at <Text as="span" size="xl" weight="strong">RentOcart</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
 </>
   ),
 };
@@ -113,9 +113,9 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Wareshare Technology PVT LTD",
+        timeframe: "2024 - Present",
+        role: "Technical Head",
         achievements: [
           <>
             Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
@@ -137,9 +137,41 @@ const about: About = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "RS Solution",
+        timeframe: "2022 - 2024",
+        role: "Sr IT Engineer",
+        achievements: [
+          <>
+            Developed a design system that unified the brand across multiple platforms, improving
+            design consistency by 40%.
+          </>,
+          <>
+            Led a cross-functional team to launch a new product line, contributing to a 15% increase
+            in overall company revenue.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Dalmia Computers",
+        timeframe: "2021 - 2022",
+        role: "IT Engineer",
+        achievements: [
+          <>
+            Developed a design system that unified the brand across multiple platforms, improving
+            design consistency by 40%.
+          </>,
+          <>
+            Led a cross-functional team to launch a new product line, contributing to a 15% increase
+            in overall company revenue.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Sungwoo Stamping Private Limited",
+        timeframe: "2020 - 2021",
+        role: "Computer Operater",
         achievements: [
           <>
             Developed a design system that unified the brand across multiple platforms, improving
